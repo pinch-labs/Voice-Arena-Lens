@@ -1,0 +1,54 @@
+- !<AssetImportMetadata/42966a79-574d-45c4-924f-01d824cb236e>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> d771a5f8-1d80-437f-bb63-2eb271a5f89b
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> d771a5f8-1d80-437f-bb63-2eb271a5f89b
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 8ddfc07d-150f-4a76-8e8a-52b4ac22e493
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/2e9754bd-c651-4602-79d5-10513a8a1e67>
+  PrefabRemaps:
+    []
+  Name: SpellSpawner
+  Enabled: true
+  ScriptAsset: !<reference> 83e4f23a-516a-4537-ad55-978f326ade9c
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      instObj: !<reference.ObjectPrefab> 54105996-90f8-4f7e-805d-952767cb2a24
+      timer: !<float> 1.000000
+      electric: !<reference.AudioComponent> 0005e986-1b29-df32-0000-00000009bfb5
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/71280ddf-b272-435c-5dab-d514feae8102>
+  PrefabRemaps:
+    []
+  Name: Spawner
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -15.000000, z: 0.000000}
+    Rotation: {x: 180.000000, y: 2.753248, z: 180.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2e9754bd-c651-4602-79d5-10513a8a1e67
+- !<ObjectPrefabAssetData/8ddfc07d-150f-4a76-8e8a-52b4ac22e493>
+  Prototype: !<ObjectOwner/e1471576-612c-4048-95a6-81be9f6dda79>
+    PackagePath: ""
+    objects:
+      - !<own> 71280ddf-b272-435c-5dab-d514feae8102

@@ -1,0 +1,37 @@
+- !<NativePackageDescriptor/7a7672a2-f219-469b-96ee-556b87011288>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 1
+    build: 25102815
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: "Wormhole Effect This asset is a wormhole effect can be easily integrated in any lens and can be customized according to choices like changing colors, managing rotation speed etc."
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 76
+  ExportUid: 51bf0c73-9a7f-4ce6-b06e-93d317ec63f7
+  ComponentUid: 99c1c0f0-d075-4117-b8e6-414ca9a682f6
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0

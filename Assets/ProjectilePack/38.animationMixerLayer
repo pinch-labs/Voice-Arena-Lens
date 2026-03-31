@@ -1,0 +1,17 @@
+- !<AnimationMixerLayer/0f083786-b768-4731-9f68-20c2ea98e0c1>
+  PackagePath: ""
+  Layer: Sphere_cell.074Action
+  Name: 38
+  Weight: 1.000000
+  SpeedRatio: 0.500000
+  From: 0.000000
+  To: 0.125000
+  Offset: 0.000000
+  FPS: 30.000000
+  NumCycles: -1
+  Reversed: false
+  Disabled: false
+  PostInfinity: Cycle
+  BlendMode: Default
+  ScaleMode: Multiply
+  RangeType: TimeInSeconds

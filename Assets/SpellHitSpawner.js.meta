@@ -1,0 +1,52 @@
+- !<AssetImportMetadata/9166c1ab-2e8f-4f53-8e86-303654a4fb2e>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> d24373f0-90e9-4a2f-b12e-49c8c11d8a31
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> d24373f0-90e9-4a2f-b12e-49c8c11d8a31
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 00bcedac-e87d-47a8-b9f6-b3e6c81f0724
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/00bcedac-e87d-47a8-b9f6-b3e6c81f0724>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: ac20d294-aa77-4298-a189-24b5ff6433a8
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    explosionSpeed: false
+    hitCounts: false
+    hitPrefabs: false
+    hitSound: false
+    lifetime: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - hitPrefabs: !<reference.ObjectPrefab[]>
+        []
+      hitCounts: !<int[]>
+        []
+      explosionSpeed: !<float> 300.000000
+      lifetime: !<float> 3.000000
+      hitSound: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

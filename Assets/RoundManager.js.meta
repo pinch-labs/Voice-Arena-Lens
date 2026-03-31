@@ -1,0 +1,64 @@
+- !<AssetImportMetadata/4336f8eb-33af-442d-8280-117aeec4ecc1>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 970eb01d-4b88-4b77-a96c-81cb59c75d34
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 970eb01d-4b88-4b77-a96c-81cb59c75d34
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> beea2bf8-3ed1-4e5e-90b9-7066cbd62836
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/beea2bf8-3ed1-4e5e-90b9-7066cbd62836>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: b3ac19e7-e45b-4ba2-b189-ee2ee567bf2c
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    botBehaviourScript: false
+    botHealthScript: false
+    botSpawnerScript: false
+    editorSpawner: false
+    headsetSpawner: false
+    hideHealthUI: false
+    isHeadsetMode: false
+    playerConfetti: false
+    playerHealthScript: false
+    restartDelay: false
+    skipPlayerIntro: false
+    ttsController: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - playerHealthScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      botHealthScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      botSpawnerScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      botBehaviourScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      restartDelay: !<float> 10.000000
+      skipPlayerIntro: false
+      hideHealthUI: false
+      isHeadsetMode: false
+      editorSpawner: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      ttsController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      headsetSpawner: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      playerConfetti: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

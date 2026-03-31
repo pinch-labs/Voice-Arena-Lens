@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/f03bea2e-1cdd-4296-8b09-3f6cc21bb812>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> e5034871-70ec-440e-88e9-d5985e97bbad
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> e5034871-70ec-440e-88e9-d5985e97bbad
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> f3f20698-3586-4097-af5e-2431a290db5f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/f3f20698-3586-4097-af5e-2431a290db5f>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 7db5fb4b-a3c1-49ba-95d2-b9dbdb16a6f3
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    healthTextEditor: false
+    healthTextHeadset: false
+    healthTextLeft: false
+    hitSFX: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - healthTextEditor: !<reference.Text3D> 00000000-0000-0000-0000-000000000000
+      healthTextHeadset: !<reference.Text3D> 00000000-0000-0000-0000-000000000000
+      healthTextLeft: !<reference.Text3D> 00000000-0000-0000-0000-000000000000
+      hitSFX: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

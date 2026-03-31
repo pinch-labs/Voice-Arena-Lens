@@ -1,0 +1,18 @@
+- !<AssetImportMetadata/bfa4307d-ea82-43bd-bdfa-460c46a15345>
+  ImportedAssetIds:
+    d795fd46-e16b-4cb9-8dfb-4ef227298f7a: !<reference> e34519f8-909e-4612-bb3d-a5e8f9fa1128
+    2013a19b-93c1-4f21-b7ea-876a33550c7b: !<reference> 0190f108-b5f0-429f-bec5-c208d16d17ff
+    923415f5-4245-4675-ade1-6d69d6d23e71: !<reference> f6fb3130-4774-423c-bea0-7d32db86d5a0
+  ImporterName: NativePackageImporter
+  PrimaryAsset: !<reference> 590f9bda-fa6d-4fc2-9ee0-24ab43916e5f
+  PackageType: PackedNativePackageRoot
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

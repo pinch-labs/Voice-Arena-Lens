@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/ef29927b-1154-4112-b759-0494fd330e68>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 83e4f23a-516a-4537-ad55-978f326ade9c
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 83e4f23a-516a-4537-ad55-978f326ade9c
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 2b10a20f-1b01-441f-a281-2ab531190cf8
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/2b10a20f-1b01-441f-a281-2ab531190cf8>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 97375abb-1afb-40fb-9d67-6de5be09a849
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    electric: false
+    instObj: false
+    timer: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - instObj: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      timer: !<float> 0.000000
+      electric: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

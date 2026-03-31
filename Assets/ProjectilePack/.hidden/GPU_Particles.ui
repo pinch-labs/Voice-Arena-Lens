@@ -1,0 +1,1251 @@
+{
+    "extraDefines": [],
+    "shaderType": "Mesh3d",
+    "ui": [
+        {
+            "bindingName": "",
+            "bindingType": "defineSelect",
+            "hint": "Specifies the purpose for which Rotation will be used.",
+            "label": "World / Local Space",
+            "values": [
+                {
+                    "bindingName": "NONE",
+                    "bindingType": "",
+                    "hint": "Local Space Rotation.",
+                    "label": "Local Space",
+                    "widget": ""
+                },
+                {
+                    "bindingName": "WORLDSPACE",
+                    "bindingType": "",
+                    "hint": "Ignore Emitter Rotation.",
+                    "label": "World Space - Ignore Emitter Rotation",
+                    "widget": ""
+                },
+                {
+                    "bindingName": "WORLDFORCE",
+                    "bindingType": "",
+                    "hint": "Ignore Emitter Rotation and apply World Space Gravity",
+                    "label": "World Force - Gravity Ignores Emitter Rotaion",
+                    "widget": ""
+                }
+            ],
+            "widget": ""
+        },
+        {
+            "bindingName": "",
+            "bindingType": "",
+            "hint": "",
+            "label": "Spawn / Time",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "timeGlobal",
+            "bindingType": "property",
+            "default": 1.0,
+            "hint": "",
+            "label": "Global Time Multiplier",
+            "widget": ""
+        },
+        {
+            "bindingName": "EXTERNALTIME",
+            "bindingType": "define",
+            "hint": "",
+            "label": "External Time",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "externalTimeInput",
+            "bindingType": "property",
+            "hint": "",
+            "label": "External Time Input",
+            "widget": "default"
+        },
+        {
+            "bindingName": "EXTERNALTIME",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "externalSeed",
+            "bindingType": "property",
+            "default": 0.0,
+            "hint": "",
+            "label": "External Seed",
+            "max": 1.0,
+            "min": 0.0,
+            "step": 0.009999999776482582,
+            "widget": "slider"
+        },
+        {
+            "bindingName": "WORLDPOSSEED",
+            "bindingType": "define",
+            "hint": "",
+            "label": "World Position Seed",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "WORLDPOSSEED",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "lifeTimeConstant",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Lifetime",
+            "widget": ""
+        },
+        {
+            "bindingName": "LIFETIMEMINMAX",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Lifetime Random",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "lifeTimeMinMax",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Lifetime Min/Max",
+            "widget": ""
+        },
+        {
+            "bindingName": "LIFETIMEMINMAX",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "spawnDuration",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Spawn Duration",
+            "widget": "default"
+        },
+        {
+            "bindingName": "MAXPARTICLECOUNT",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Particle Count",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "spawnMaxParticles",
+            "bindingType": "property",
+            "default": 100.0,
+            "hint": "",
+            "label": "Amount",
+            "max": 1000.0,
+            "min": 0.0,
+            "widget": "slider"
+        },
+        {
+            "bindingName": "MAXPARTICLECOUNT",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "INSTANTSPAWN",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Instant Spawn",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "INSTANTSPAWN",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "",
+            "bindingType": "",
+            "hint": "",
+            "label": "Spawn Location / Shape",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "INILOCATION",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Initial Location",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "spawnLocation",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Spawn Location",
+            "widget": "default"
+        },
+        {
+            "bindingName": "INILOCATION",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "BOXSPAWN",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Initial Box Spawn",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "spawnBox",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Spawn Box",
+            "widget": "default"
+        },
+        {
+            "bindingName": "BOXSPAWN",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "SPHERESPAWN",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Initial Sphere Spawn",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "spawnSphere",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Spawn Sphere",
+            "widget": "default"
+        },
+        {
+            "bindingName": "SPHERESPAWN",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "",
+            "bindingType": "",
+            "hint": "",
+            "label": "Textures",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "BASETEXTURE",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Base Texture",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "mainTexture",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Texture",
+            "widget": "texture_group"
+        },
+        {
+            "bindingName": "BASETEXTURE",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "FLIPBOOK",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Flipbook",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "gridSize",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Num Columns, Rows",
+            "widget": "default"
+        },
+        {
+            "bindingName": "numValidFrames",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Num Valid Frames",
+            "min": 1.0,
+            "step": 1.0,
+            "widget": "default"
+        },
+        {
+            "bindingName": "flipBookSpeedMult",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Flipbook Speed",
+            "widget": "default"
+        },
+        {
+            "bindingName": "flipBookRandomStart",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Flipbook Random",
+            "widget": "default"
+        },
+        {
+            "bindingName": "FLIPBOOKBLEND",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Frame Blend",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "FLIPBOOKBLEND",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "VECTORFIELD",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Vector Blend",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "flowStrength",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Flow Strength",
+            "widget": "default"
+        },
+        {
+            "bindingName": "flowSpeed",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Flow Speed",
+            "widget": "default"
+        },
+        {
+            "bindingName": "vectorTexture",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Vector Texture",
+            "widget": "texture_group"
+        },
+        {
+            "bindingName": "VECTORFIELD",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "FLIPBOOKBYLIFE",
+            "bindingType": "define",
+            "hint": "",
+            "label": "By Life",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "FLIPBOOKBYLIFE",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "FLIPBOOK",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "COLORRAMP",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Color Ramp Texture",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "colorRampTexture",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Texture",
+            "widget": "texture_group"
+        },
+        {
+            "bindingName": "NORANDOFFSET",
+            "bindingType": "define",
+            "hint": "",
+            "label": "No Random Offset",
+            "widget": ""
+        },
+        {
+            "bindingName": "colorRampMult",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Color Ramp Mult",
+            "widget": "default"
+        },
+        {
+            "bindingName": "COLORRAMP",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "",
+            "bindingType": "",
+            "hint": "",
+            "label": "Color / Alpha",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "colorStart",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Color Start",
+            "widget": "color"
+        },
+        {
+            "bindingName": "colorEnd",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Color End",
+            "widget": "color"
+        },
+        {
+            "bindingName": "COLORMINMAX",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Color Random",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "colorMinStart",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Color Min Start",
+            "widget": "color"
+        },
+        {
+            "bindingName": "colorMaxStart",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Color Max Start",
+            "widget": "color"
+        },
+        {
+            "bindingName": "colorMinEnd",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Color Min End",
+            "widget": "color"
+        },
+        {
+            "bindingName": "colorMaxEnd",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Color Max End",
+            "widget": "color"
+        },
+        {
+            "bindingName": "COLORMINMAX",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "alphaStart",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Alpha Start",
+            "widget": "default"
+        },
+        {
+            "bindingName": "alphaEnd",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Alpha End",
+            "widget": "default"
+        },
+        {
+            "bindingName": "ALPHAMINMAX",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Alpha Random",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "alphaMinStart",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Alpha Min Start",
+            "widget": "default"
+        },
+        {
+            "bindingName": "alphaMaxStart",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Alpha Max Start",
+            "widget": "default"
+        },
+        {
+            "bindingName": "alphaMinEnd",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Alpha Min End",
+            "widget": "default"
+        },
+        {
+            "bindingName": "alphaMaxEnd",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Alpha Max End",
+            "widget": "default"
+        },
+        {
+            "bindingName": "ALPHAMINMAX",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "PREMULTIPLIEDCOLOR",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Premultiplied Color",
+            "widget": ""
+        },
+        {
+            "bindingName": "BLACKASALPHA",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Black as Alpha",
+            "widget": ""
+        },
+        {
+            "bindingName": "ALPHADISSOLVE",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Alpha Dissolving",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "alphaDissolveMult",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Dissolve Speed",
+            "widget": "default"
+        },
+        {
+            "bindingName": "ALPHADISSOLVE",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "SCREENFADE",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Fade Close to Camera",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "fadeDistanceVisible",
+            "bindingType": "property",
+            "default": 25.0,
+            "hint": "",
+            "label": "Fade Dist Visible",
+            "max": 1000.0,
+            "min": 0.0,
+            "step": 0.009999999776482582,
+            "widget": "slider"
+        },
+        {
+            "bindingName": "fadeDistanceInvisible",
+            "bindingType": "property",
+            "default": 35.0,
+            "hint": "",
+            "label": "Fade Dist Invisible",
+            "max": 1000.0,
+            "min": 0.0,
+            "step": 0.009999999776482582,
+            "widget": "slider"
+        },
+        {
+            "bindingName": "SCREENFADE",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "COLORMONOMIN",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Mono Color Random",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "COLORMONOMIN",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "",
+            "bindingType": "",
+            "hint": "",
+            "label": "Light / Shadow",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "CAMERALIGHTING",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Camera Lighting",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "cameraLightTexture",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Camera Color Texture",
+            "widget": "texture_group"
+        },
+        {
+            "bindingName": "cameraLightBlend",
+            "bindingType": "property",
+            "default": 1.0,
+            "hint": "",
+            "label": "Camera Light Blend",
+            "max": 1.0,
+            "min": 0.0,
+            "step": 0.0010000000474974513,
+            "widget": "slider"
+        },
+        {
+            "bindingName": "CAMERALIGHTING",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "PIXELLIGHTING",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Pixel Lighting",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "ULFTexture",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Lighting Texture",
+            "widget": "texture_group"
+        },
+        {
+            "bindingName": "lightPow",
+            "bindingType": "property",
+            "default": 1.0,
+            "hint": "",
+            "label": "Particle Shade",
+            "max": 4.0,
+            "min": 0.0,
+            "step": 0.0010000000474974513,
+            "widget": "slider"
+        },
+        {
+            "bindingName": "PIXELLIGHTING",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "VERTEXLIGHTING",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Vertex Lighting",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "vertexLightBlend",
+            "bindingType": "property",
+            "default": 1.0,
+            "hint": "",
+            "label": "Particle Shade",
+            "max": 4.0,
+            "min": 0.0,
+            "step": 0.0010000000474974513,
+            "widget": "slider"
+        },
+        {
+            "bindingName": "VERTEXLIGHTING",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "shadowSize",
+            "bindingType": "property",
+            "default": 1.5,
+            "hint": "",
+            "label": "Shadow Size",
+            "max": 2.0,
+            "min": 0.0,
+            "step": 0.0010000000474974513,
+            "widget": "slider"
+        },
+        {
+            "bindingName": "",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "",
+            "bindingType": "",
+            "hint": "",
+            "label": "Distortion / Screen",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "DISTORTION",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Distortion",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "vectorTexture",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Texture",
+            "widget": "texture_group"
+        },
+        {
+            "bindingName": "distortionSpeed",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Distortion Speed",
+            "widget": "default"
+        },
+        {
+            "bindingName": "distortionTile",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Distortion UV",
+            "widget": "default"
+        },
+        {
+            "bindingName": "distStrength",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Distortion Strength",
+            "widget": "default"
+        },
+        {
+            "bindingName": "DISTORTION",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "",
+            "bindingType": "",
+            "hint": "",
+            "label": "Noise",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "NOISE",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Noise",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "noiseMult",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Noise Scale",
+            "widget": "default"
+        },
+        {
+            "bindingName": "noiseFrequency",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Noise Frequency",
+            "widget": "default"
+        },
+        {
+            "bindingName": "NOISE",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "SNOISE",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Simplex Noise",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "sNoiseMult",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Noise Scale",
+            "widget": "default"
+        },
+        {
+            "bindingName": "sNoiseFrequency",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Noise Frequency",
+            "widget": "default"
+        },
+        {
+            "bindingName": "SNOISE",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "",
+            "bindingType": "",
+            "hint": "",
+            "label": "Collision",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "COLLISION",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Collision Bounce",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "collParticleOffset",
+            "bindingType": "property",
+            "default": 0.0,
+            "hint": "",
+            "label": "Collision Offset",
+            "max": 10.0,
+            "min": -10.0,
+            "step": 0.0010000000474974513,
+            "widget": "slider"
+        },
+        {
+            "bindingName": "collBounceness",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Bounceness",
+            "widget": "default"
+        },
+        {
+            "bindingName": "collNumBounce",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Number of Bounces",
+            "widget": "default"
+        },
+        {
+            "bindingName": "COLLISION",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "COLLISIONPLANE",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Collision Slide",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "collPlaneHeight",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Collision Height",
+            "widget": "default"
+        },
+        {
+            "bindingName": "COLLISIONPLANE",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "",
+            "bindingType": "",
+            "hint": "",
+            "label": "Velocity",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "VELRAMP",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Velocity Ramp Texture",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "velRampTexture",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Velocity Ramp Texture",
+            "widget": "texture_group"
+        },
+        {
+            "bindingName": "VELRAMP",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "velocityMin",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Velocity Min",
+            "widget": "default"
+        },
+        {
+            "bindingName": "velocityMax",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Velocity Max",
+            "widget": "default"
+        },
+        {
+            "bindingName": "velocityDrag",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Velocity Drag",
+            "widget": "default"
+        },
+        {
+            "bindingName": "",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "",
+            "bindingType": "",
+            "hint": "",
+            "label": "Rotation",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "rotationRate",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Rotation Rate",
+            "widget": "default"
+        },
+        {
+            "bindingName": "rotationRandom",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Initial Rotation",
+            "widget": "default"
+        },
+        {
+            "bindingName": "rotationDrag",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Rotation Drag",
+            "widget": "default"
+        },
+        {
+            "bindingName": "ALIGNTOX",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Align to X",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "ALIGNTOX",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "ALIGNTOY",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Align to Y",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "ALIGNTOY",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "ALIGNTOZ",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Align to Z",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "ALIGNTOZ",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "VELOCITYDIR",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Align to Direction",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "sizeVelScale",
+            "bindingType": "property",
+            "default": 1.0,
+            "hint": "",
+            "label": "Size Vel Scale",
+            "widget": "default"
+        },
+        {
+            "bindingName": "VELOCITYDIR",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "",
+            "bindingType": "",
+            "hint": "",
+            "label": "Scale",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "sizeStart",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Size Start",
+            "widget": "default"
+        },
+        {
+            "bindingName": "sizeEnd",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Size End",
+            "widget": "default"
+        },
+        {
+            "bindingName": "SIZEMINMAX",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Size Random",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "sizeStartMin",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Size Start Min",
+            "widget": "default"
+        },
+        {
+            "bindingName": "sizeStartMax",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Size Start Max",
+            "widget": "default"
+        },
+        {
+            "bindingName": "sizeEndMin",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Size End Min",
+            "widget": "default"
+        },
+        {
+            "bindingName": "sizeEndMax",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Size End Max",
+            "widget": "default"
+        },
+        {
+            "bindingName": "SIZEMINMAX",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "sizeSpeed",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Size Drag",
+            "widget": "default"
+        },
+        {
+            "bindingName": "SIZERAMP",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Size Ramp Texture",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "sizeRampTexture",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Size Ramp Texture",
+            "widget": "texture_group"
+        },
+        {
+            "bindingName": "SIZERAMP",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "",
+            "bindingType": "",
+            "hint": "",
+            "label": "Force / Gravity",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "gravity",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Gravity - cm/s",
+            "widget": "default"
+        },
+        {
+            "bindingName": "FORCE",
+            "bindingType": "define",
+            "hint": "",
+            "label": "Local Force",
+            "widget": "group_start"
+        },
+        {
+            "bindingName": "localForce",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Amount",
+            "widget": "default"
+        },
+        {
+            "bindingName": "FORCE",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        },
+        {
+            "bindingName": "",
+            "bindingType": "",
+            "hint": "",
+            "label": "",
+            "widget": "group_end"
+        }
+    ]
+}

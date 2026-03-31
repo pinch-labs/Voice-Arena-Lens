@@ -1,0 +1,735 @@
+{
+
+"images": [
+    "LPD_169_Countdown_back_2.png"
+],
+
+"frames": [
+{
+    "name": "LPD_169_Countdown_back_2_00047.png",
+    "texture": 0,
+    "samplingRect": {
+        "objectName": "",
+        "x": 3,
+        "y": 3,
+        "width": 73,
+        "height": 96
+    },
+    "rotated": false,
+    "trimmed": true,
+    "sourceSize": {
+        "objectName": "",
+        "width": 88,
+        "height": 104
+    },
+    "clipping": {
+        "left": 10,
+        "top": 6,
+        "right": 83,
+        "bottom": 102
+    }
+},{
+    "name": "LPD_169_Countdown_back_2_00048.png",
+    "texture": 0,
+    "samplingRect": {
+        "objectName": "",
+        "x": 80,
+        "y": 3,
+        "width": 71,
+        "height": 94
+    },
+    "rotated": false,
+    "trimmed": true,
+    "sourceSize": {
+        "objectName": "",
+        "width": 88,
+        "height": 104
+    },
+    "clipping": {
+        "left": 9,
+        "top": 6,
+        "right": 80,
+        "bottom": 100
+    }
+},{
+    "name": "LPD_169_Countdown_back_2_00049.png",
+    "texture": 0,
+    "samplingRect": {
+        "objectName": "",
+        "x": 155,
+        "y": 3,
+        "width": 68,
+        "height": 91
+    },
+    "rotated": false,
+    "trimmed": true,
+    "sourceSize": {
+        "objectName": "",
+        "width": 88,
+        "height": 104
+    },
+    "clipping": {
+        "left": 8,
+        "top": 9,
+        "right": 76,
+        "bottom": 100
+    }
+},{
+    "name": "LPD_169_Countdown_back_2_00050.png",
+    "texture": 0,
+    "samplingRect": {
+        "objectName": "",
+        "x": 227,
+        "y": 3,
+        "width": 67,
+        "height": 90
+    },
+    "rotated": false,
+    "trimmed": true,
+    "sourceSize": {
+        "objectName": "",
+        "width": 88,
+        "height": 104
+    },
+    "clipping": {
+        "left": 8,
+        "top": 11,
+        "right": 75,
+        "bottom": 101
+    }
+},{
+    "name": "LPD_169_Countdown_back_2_00051.png",
+    "texture": 0,
+    "samplingRect": {
+        "objectName": "",
+        "x": 298,
+        "y": 3,
+        "width": 65,
+        "height": 94
+    },
+    "rotated": false,
+    "trimmed": true,
+    "sourceSize": {
+        "objectName": "",
+        "width": 88,
+        "height": 104
+    },
+    "clipping": {
+        "left": 9,
+        "top": 9,
+        "right": 74,
+        "bottom": 103
+    }
+},{
+    "name": "LPD_169_Countdown_back_2_00052.png",
+    "texture": 0,
+    "samplingRect": {
+        "objectName": "",
+        "x": 367,
+        "y": 3,
+        "width": 63,
+        "height": 98
+    },
+    "rotated": false,
+    "trimmed": true,
+    "sourceSize": {
+        "objectName": "",
+        "width": 88,
+        "height": 104
+    },
+    "clipping": {
+        "left": 10,
+        "top": 6,
+        "right": 73,
+        "bottom": 104
+    }
+},{
+    "name": "LPD_169_Countdown_back_2_00053.png",
+    "texture": 0,
+    "samplingRect": {
+        "objectName": "",
+        "x": 3,
+        "y": 105,
+        "width": 61,
+        "height": 100
+    },
+    "rotated": false,
+    "trimmed": true,
+    "sourceSize": {
+        "objectName": "",
+        "width": 88,
+        "height": 104
+    },
+    "clipping": {
+        "left": 11,
+        "top": 4,
+        "right": 72,
+        "bottom": 104
+    }
+},{
+    "name": "LPD_169_Countdown_back_2_00054.png",
+    "texture": 0,
+    "samplingRect": {
+        "objectName": "",
+        "x": 68,
+        "y": 105,
+        "width": 61,
+        "height": 100
+    },
+    "rotated": false,
+    "trimmed": true,
+    "sourceSize": {
+        "objectName": "",
+        "width": 88,
+        "height": 104
+    },
+    "clipping": {
+        "left": 11,
+        "top": 4,
+        "right": 72,
+        "bottom": 104
+    }
+},{
+    "name": "LPD_169_Countdown_back_2_00055.png",
+    "texture": 0,
+    "samplingRect": {
+        "objectName": "",
+        "x": 133,
+        "y": 105,
+        "width": 61,
+        "height": 99
+    },
+    "rotated": false,
+    "trimmed": true,
+    "sourceSize": {
+        "objectName": "",
+        "width": 88,
+        "height": 104
+    },
+    "clipping": {
+        "left": 11,
+        "top": 5,
+        "right": 72,
+        "bottom": 104
+    }
+},{
+    "name": "LPD_169_Countdown_back_2_00056.png",
+    "texture": 0,
+    "samplingRect": {
+        "objectName": "",
+        "x": 198,
+        "y": 105,
+        "width": 61,
+        "height": 99
+    },
+    "rotated": false,
+    "trimmed": true,
+    "sourceSize": {
+        "objectName": "",
+        "width": 88,
+        "height": 104
+    },
+    "clipping": {
+        "left": 11,
+        "top": 5,
+        "right": 72,
+        "bottom": 104
+    }
+},{
+    "name": "LPD_169_Countdown_back_2_00057.png",
+    "texture": 0,
+    "samplingRect": {
+        "objectName": "",
+        "x": 263,
+        "y": 105,
+        "width": 61,
+        "height": 99
+    },
+    "rotated": false,
+    "trimmed": true,
+    "sourceSize": {
+        "objectName": "",
+        "width": 88,
+        "height": 104
+    },
+    "clipping": {
+        "left": 11,
+        "top": 5,
+        "right": 72,
+        "bottom": 104
+    }
+},{
+    "name": "LPD_169_Countdown_back_2_00058.png",
+    "texture": 0,
+    "samplingRect": {
+        "objectName": "",
+        "x": 328,
+        "y": 105,
+        "width": 61,
+        "height": 98
+    },
+    "rotated": false,
+    "trimmed": true,
+    "sourceSize": {
+        "objectName": "",
+        "width": 88,
+        "height": 104
+    },
+    "clipping": {
+        "left": 11,
+        "top": 6,
+        "right": 72,
+        "bottom": 104
+    }
+},{
+    "name": "LPD_169_Countdown_back_2_00059.png",
+    "texture": 0,
+    "samplingRect": {
+        "objectName": "",
+        "x": 393,
+        "y": 105,
+        "width": 61,
+        "height": 98
+    },
+    "rotated": false,
+    "trimmed": true,
+    "sourceSize": {
+        "objectName": "",
+        "width": 88,
+        "height": 104
+    },
+    "clipping": {
+        "left": 11,
+        "top": 6,
+        "right": 72,
+        "bottom": 104
+    }
+},{
+    "name": "LPD_169_Countdown_back_2_00060.png",
+    "texture": 0,
+    "samplingRect": {
+        "objectName": "",
+        "x": 3,
+        "y": 209,
+        "width": 61,
+        "height": 98
+    },
+    "rotated": false,
+    "trimmed": true,
+    "sourceSize": {
+        "objectName": "",
+        "width": 88,
+        "height": 104
+    },
+    "clipping": {
+        "left": 11,
+        "top": 6,
+        "right": 72,
+        "bottom": 104
+    }
+},{
+    "name": "LPD_169_Countdown_back_2_00061.png",
+    "texture": 0,
+    "samplingRect": {
+        "objectName": "",
+        "x": 68,
+        "y": 209,
+        "width": 61,
+        "height": 98
+    },
+    "rotated": false,
+    "trimmed": true,
+    "sourceSize": {
+        "objectName": "",
+        "width": 88,
+        "height": 104
+    },
+    "clipping": {
+        "left": 11,
+        "top": 6,
+        "right": 72,
+        "bottom": 104
+    }
+},{
+    "name": "LPD_169_Countdown_back_2_00062.png",
+    "texture": 0,
+    "samplingRect": {
+        "objectName": "",
+        "x": 133,
+        "y": 209,
+        "width": 61,
+        "height": 98
+    },
+    "rotated": false,
+    "trimmed": true,
+    "sourceSize": {
+        "objectName": "",
+        "width": 88,
+        "height": 104
+    },
+    "clipping": {
+        "left": 11,
+        "top": 6,
+        "right": 72,
+        "bottom": 104
+    }
+},{
+    "name": "LPD_169_Countdown_back_2_00063.png",
+    "texture": 0,
+    "samplingRect": {
+        "objectName": "",
+        "x": 198,
+        "y": 209,
+        "width": 61,
+        "height": 99
+    },
+    "rotated": false,
+    "trimmed": true,
+    "sourceSize": {
+        "objectName": "",
+        "width": 88,
+        "height": 104
+    },
+    "clipping": {
+        "left": 11,
+        "top": 5,
+        "right": 72,
+        "bottom": 104
+    }
+},{
+    "name": "LPD_169_Countdown_back_2_00064.png",
+    "texture": 0,
+    "samplingRect": {
+        "objectName": "",
+        "x": 263,
+        "y": 209,
+        "width": 61,
+        "height": 99
+    },
+    "rotated": false,
+    "trimmed": true,
+    "sourceSize": {
+        "objectName": "",
+        "width": 88,
+        "height": 104
+    },
+    "clipping": {
+        "left": 11,
+        "top": 5,
+        "right": 72,
+        "bottom": 104
+    }
+},{
+    "name": "LPD_169_Countdown_back_2_00065.png",
+    "texture": 0,
+    "samplingRect": {
+        "objectName": "",
+        "x": 328,
+        "y": 209,
+        "width": 61,
+        "height": 99
+    },
+    "rotated": false,
+    "trimmed": true,
+    "sourceSize": {
+        "objectName": "",
+        "width": 88,
+        "height": 104
+    },
+    "clipping": {
+        "left": 11,
+        "top": 5,
+        "right": 72,
+        "bottom": 104
+    }
+},{
+    "name": "LPD_169_Countdown_back_2_00066.png",
+    "texture": 0,
+    "samplingRect": {
+        "objectName": "",
+        "x": 393,
+        "y": 209,
+        "width": 61,
+        "height": 100
+    },
+    "rotated": false,
+    "trimmed": true,
+    "sourceSize": {
+        "objectName": "",
+        "width": 88,
+        "height": 104
+    },
+    "clipping": {
+        "left": 11,
+        "top": 4,
+        "right": 72,
+        "bottom": 104
+    }
+},{
+    "name": "LPD_169_Countdown_back_2_00067.png",
+    "texture": 0,
+    "samplingRect": {
+        "objectName": "",
+        "x": 3,
+        "y": 313,
+        "width": 61,
+        "height": 100
+    },
+    "rotated": false,
+    "trimmed": true,
+    "sourceSize": {
+        "objectName": "",
+        "width": 88,
+        "height": 104
+    },
+    "clipping": {
+        "left": 11,
+        "top": 4,
+        "right": 72,
+        "bottom": 104
+    }
+},{
+    "name": "LPD_169_Countdown_back_2_00068.png",
+    "texture": 0,
+    "samplingRect": {
+        "objectName": "",
+        "x": 68,
+        "y": 313,
+        "width": 61,
+        "height": 99
+    },
+    "rotated": false,
+    "trimmed": true,
+    "sourceSize": {
+        "objectName": "",
+        "width": 88,
+        "height": 104
+    },
+    "clipping": {
+        "left": 11,
+        "top": 4,
+        "right": 72,
+        "bottom": 103
+    }
+},{
+    "name": "LPD_169_Countdown_back_2_00069.png",
+    "texture": 0,
+    "samplingRect": {
+        "objectName": "",
+        "x": 133,
+        "y": 313,
+        "width": 63,
+        "height": 99
+    },
+    "rotated": false,
+    "trimmed": true,
+    "sourceSize": {
+        "objectName": "",
+        "width": 88,
+        "height": 104
+    },
+    "clipping": {
+        "left": 10,
+        "top": 3,
+        "right": 73,
+        "bottom": 102
+    }
+},{
+    "name": "LPD_169_Countdown_back_2_00070.png",
+    "texture": 0,
+    "samplingRect": {
+        "objectName": "",
+        "x": 200,
+        "y": 313,
+        "width": 65,
+        "height": 98
+    },
+    "rotated": false,
+    "trimmed": true,
+    "sourceSize": {
+        "objectName": "",
+        "width": 88,
+        "height": 104
+    },
+    "clipping": {
+        "left": 10,
+        "top": 2,
+        "right": 75,
+        "bottom": 100
+    }
+},{
+    "name": "LPD_169_Countdown_back_2_00071.png",
+    "texture": 0,
+    "samplingRect": {
+        "objectName": "",
+        "x": 269,
+        "y": 313,
+        "width": 66,
+        "height": 97
+    },
+    "rotated": false,
+    "trimmed": true,
+    "sourceSize": {
+        "objectName": "",
+        "width": 88,
+        "height": 104
+    },
+    "clipping": {
+        "left": 10,
+        "top": 1,
+        "right": 76,
+        "bottom": 98
+    }
+},{
+    "name": "LPD_169_Countdown_back_2_00072.png",
+    "texture": 0,
+    "samplingRect": {
+        "objectName": "",
+        "x": 339,
+        "y": 313,
+        "width": 68,
+        "height": 97
+    },
+    "rotated": false,
+    "trimmed": true,
+    "sourceSize": {
+        "objectName": "",
+        "width": 88,
+        "height": 104
+    },
+    "clipping": {
+        "left": 9,
+        "top": 1,
+        "right": 77,
+        "bottom": 98
+    }
+},{
+    "name": "LPD_169_Countdown_back_2_00073.png",
+    "texture": 0,
+    "samplingRect": {
+        "objectName": "",
+        "x": 3,
+        "y": 417,
+        "width": 68,
+        "height": 98
+    },
+    "rotated": false,
+    "trimmed": true,
+    "sourceSize": {
+        "objectName": "",
+        "width": 88,
+        "height": 104
+    },
+    "clipping": {
+        "left": 9,
+        "top": 1,
+        "right": 77,
+        "bottom": 99
+    }
+},{
+    "name": "LPD_169_Countdown_back_2_00074.png",
+    "texture": 0,
+    "samplingRect": {
+        "objectName": "",
+        "x": 75,
+        "y": 417,
+        "width": 69,
+        "height": 98
+    },
+    "rotated": false,
+    "trimmed": true,
+    "sourceSize": {
+        "objectName": "",
+        "width": 88,
+        "height": 104
+    },
+    "clipping": {
+        "left": 9,
+        "top": 3,
+        "right": 78,
+        "bottom": 101
+    }
+},{
+    "name": "LPD_169_Countdown_back_2_00075.png",
+    "texture": 0,
+    "samplingRect": {
+        "objectName": "",
+        "x": 148,
+        "y": 417,
+        "width": 70,
+        "height": 97
+    },
+    "rotated": false,
+    "trimmed": true,
+    "sourceSize": {
+        "objectName": "",
+        "width": 88,
+        "height": 104
+    },
+    "clipping": {
+        "left": 10,
+        "top": 5,
+        "right": 80,
+        "bottom": 102
+    }
+},{
+    "name": "LPD_169_Countdown_back_2_00076.png",
+    "texture": 0,
+    "samplingRect": {
+        "objectName": "",
+        "x": 222,
+        "y": 417,
+        "width": 74,
+        "height": 96
+    },
+    "rotated": false,
+    "trimmed": true,
+    "sourceSize": {
+        "objectName": "",
+        "width": 88,
+        "height": 104
+    },
+    "clipping": {
+        "left": 10,
+        "top": 8,
+        "right": 84,
+        "bottom": 104
+    }
+},{
+    "name": "LPD_169_Countdown_back_2_00077.png",
+    "texture": 0,
+    "samplingRect": {
+        "objectName": "",
+        "x": 300,
+        "y": 417,
+        "width": 74,
+        "height": 96
+    },
+    "rotated": false,
+    "trimmed": true,
+    "sourceSize": {
+        "objectName": "",
+        "width": 88,
+        "height": 104
+    },
+    "clipping": {
+        "left": 10,
+        "top": 6,
+        "right": 84,
+        "bottom": 102
+    }
+}
+],
+
+"animations": {
+    "LPD_169_Countdown_back_2": { "frames": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30] }
+},
+
+"meta": {
+        "app": "http://www.codeandweb.com/texturepacker",
+        "description": "Json file for Lens Studio Framework",
+        "version": "1.0",
+        "smartupdate": "$TexturePacker:SmartUpdate:34eb07e11a305d88fdc5094bda99a8b4:b9e1f3fb4e7a21297676654b8c632c81:db5563a58a486953e4f99bf8d6dec0a4$"
+        "Created with TexturePacker (https://www.codeandweb.com/texturepacker) for Lens Studio"
+    }
+}

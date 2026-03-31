@@ -1,0 +1,37 @@
+- !<NativePackageDescriptor/560edf3c-6688-4c1a-a2ed-b2e82aadd29b>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 1
+    build: 25102815
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: Confetti VFX Highly customizable Confetti system made using VFX Editor. You can change the force direction by rotating the Confetti Scene Object with many more options available on the Confetti VFX asset. Click here to learn more about VFX Editor
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 76
+  ExportUid: f3e63611-191c-413a-b394-e4154e5b12fb
+  ComponentUid: 6e6c9f4f-3834-4357-95c3-8ea14da78dd3
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0

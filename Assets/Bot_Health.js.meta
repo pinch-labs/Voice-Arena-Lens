@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/f96d8061-9f57-49b3-92bd-48ae98bc739e>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> d4907d96-79d8-4322-9a3c-af1d37fe87af
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> d4907d96-79d8-4322-9a3c-af1d37fe87af
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 71ad437c-2b22-4dbc-95bb-06fd942af65a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/71ad437c-2b22-4dbc-95bb-06fd942af65a>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: c7c170f2-9a8b-4007-867e-7d4508cedef2
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    animManager: false
+    healthText: false
+    hitSFX: false
+    victoryConfetti: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - healthText: !<reference.Text3D> 00000000-0000-0000-0000-000000000000
+      animManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      hitSFX: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      victoryConfetti: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

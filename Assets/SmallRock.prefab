@@ -1,0 +1,67 @@
+- !<ObjectPrefab/abcbbc06-a89e-4d3a-ad7d-b1571e894db5>
+  PackagePath: ""
+  objects:
+    - !<own> 7267df3e-fa12-43b1-a062-d4438e6ee5ae
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/109ede19-7871-4932-8a78-f03a61744592>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 32660ad4-a66a-4914-9f56-8ae52651705d
+  Mesh: !<reference> 44b03f8f-85bd-4d4f-acda-9f65224eb203
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<BodyComponent/364a3979-0324-44a7-8a68-24bea3715787>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: !<Sphere>
+    FitVisual: true
+    Radius: 6.000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.000000
+  AngularDamping: 0.000000
+- !<SceneObject/7267df3e-fa12-43b1-a062-d4438e6ee5ae>
+  PrefabRemaps:
+    - 109ede19-7871-4932-8a78-f03a61744592: 109ede19-7871-4932-7587-0fc59e8bba6d
+    - 364a3979-0324-44a7-8a68-24bea3715787: 47e5f2c4-e7d5-4a6d-8d97-6e9cd7c9e636
+    - 7267df3e-fa12-43b1-a062-d4438e6ee5ae: 7267df3e-fa12-43b1-5f9d-2bbc71911a51
+  Name: SmallRock
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 5.000000, y: 5.000000, z: 5.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 109ede19-7871-4932-8a78-f03a61744592
+    - !<own> 364a3979-0324-44a7-8a68-24bea3715787

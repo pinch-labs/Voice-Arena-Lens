@@ -1,0 +1,30 @@
+- !<AssetImportMetadata/ad6ae591-c2e4-c1b9-b643-2f3efbd33edb>
+  ImportedAssetIds:
+    AnimatedTexture: !<reference> 29475bc4-962d-4040-b85d-dc6b33a5740d
+    LPD_169_Countdown_back_3.png: !<reference> 8a954b30-ee03-4fa3-ae66-e6a582e7c809
+  ImporterName: LensAnimationImporter
+  PrimaryAsset: !<reference> 29475bc4-962d-4040-b85d-dc6b33a5740d
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CannotBeUnpackedTransparent
+  ExtraData:
+    AssetLibraryId: 4A8lAVTifWBRFfu5vgzGr8
+  AssetDataMap:
+    AnimatedTexture: !<own> 97dc4c3a-9371-463b-aa55-81a99fa01914
+  DependentFiles:
+    - LPD_169_Countdown_back_3.png
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AnimatedTextureData/97dc4c3a-9371-463b-aa55-81a99fa01914>
+  AutoPlay: false
+  Reversed: false
+  PingPong: false
+  CurrentSequence: LPD_169_Countdown_back_3
+  KeyFramesData:
+    LPD_169_Countdown_back_3:
+      - time: 0.000000
+        value: 0
+      - time: 2.066667
+        value: 31

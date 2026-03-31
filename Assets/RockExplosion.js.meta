@@ -1,0 +1,54 @@
+- !<AssetImportMetadata/cccae328-61ba-4238-a6cf-e63bebe993d6>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> afb0b6cb-72c3-43c5-8ab5-502e04025f0f
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> afb0b6cb-72c3-43c5-8ab5-502e04025f0f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> be85dd30-6e81-4651-9786-8a653af993b9
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/be85dd30-6e81-4651-9786-8a653af993b9>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 19e7619d-0143-4287-b1a9-f90b42aa52ae
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    count: false
+    lifetime: false
+    maxScale: false
+    minScale: false
+    rockPrefab: false
+    speed: false
+    usePhysics: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - rockPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      count: 10
+      speed: !<float> 200.000000
+      lifetime: !<float> 3.000000
+      usePhysics: true
+      minScale: 0.500000
+      maxScale: 1.500000
+  ScriptTypes:
+    -
+      {}

@@ -1,0 +1,37 @@
+- !<NativePackageDescriptor/3513876f-a359-4187-a3fa-79d1e7eaba3f>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 1
+    build: 25102815
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: "Spawn Object at World Mesh On Tap See an example script that showcases how you can spawn an object based on a surface in the world, using World Mesh. The spawned object will be rotated based on the orientation of the surface object. You can add custom callbacks using Behavior script. Click here to learn more about Simple World Mesh."
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 76
+  ExportUid: 7bb8f93f-de92-44a5-8aa9-58611c823d88
+  ComponentUid: c2c0276e-2b2b-4a2a-9116-2d4ef6ce2461
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0

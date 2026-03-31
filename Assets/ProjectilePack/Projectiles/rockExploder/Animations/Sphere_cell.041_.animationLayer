@@ -1,0 +1,29 @@
+- !<AnimationLayer/2c125c24-b11d-4aef-b883-0f16c4f9b9ba>
+  PackagePath: ""
+  BlendMode: Default
+  ScaleMode: Multiply
+  Positions:
+    - time: 0.000000
+      value: {x: 0.626378, y: -0.525164, z: 0.313721}
+    - time: 0.041667
+      value: {x: 0.730854, y: -0.639876, z: 0.413178}
+    - time: 0.083333
+      value: {x: 0.924880, y: -0.852912, z: 0.597883}
+    - time: 0.125000
+      value: {x: 1.029356, y: -0.967624, z: 0.697340}
+  Rotations:
+    - time: 0.000000
+      value: {0: 0.000000, 1: 0.000000, 2: 0.000000, 3: 1.000000}
+    - time: 0.125000
+      value: {0: 0.000000, 1: 0.000000, 2: -0.000000, 3: 1.000000}
+  Scales:
+    - time: 0.000000
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - time: 0.125000
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+  VertexCacheAnimations:
+    []
+  Visibilities:
+    []
+  BlendShapeAnimations:
+    {}

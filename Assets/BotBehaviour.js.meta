@@ -1,0 +1,50 @@
+- !<AssetImportMetadata/a74463d4-ab2a-4e3e-b679-8231bc905f17>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 0755c771-94f3-445d-a238-ebb81f1dba52
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 0755c771-94f3-445d-a238-ebb81f1dba52
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> e0ede09d-fe8d-4f33-a338-d5ec27464357
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/e0ede09d-fe8d-4f33-a338-d5ec27464357>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 41c16710-cdfc-41a4-aa7b-f3a210927a57
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    amplitude: false
+    animManager: false
+    playerHealthScript: false
+    speed: false
+    startEnabled: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - amplitude: 0.300000
+      speed: !<float> 2.000000
+      startEnabled: true
+      playerHealthScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      animManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

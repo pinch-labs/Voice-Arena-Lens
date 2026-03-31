@@ -1,0 +1,16 @@
+- !<AssetImportMetadata/eff1ac7b-b5bd-4abc-9b80-5c315605fba4>
+  ImportedAssetIds:
+    Pass: !<reference> 185314a7-1727-4748-a83b-1a274d4b9203
+  ImporterName: PassImporter
+  PrimaryAsset: !<reference> 185314a7-1727-4748-a83b-1a274d4b9203
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    - GPU_Particles.ui
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

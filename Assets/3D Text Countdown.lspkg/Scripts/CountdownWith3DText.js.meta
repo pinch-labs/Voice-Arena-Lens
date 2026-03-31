@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/90b945f7-ac95-125e-3b79-5367087b751c>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> ac589b9a-3245-4696-a351-3a7ef48e3c3f
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> ac589b9a-3245-4696-a351-3a7ef48e3c3f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 7iZmQgG7VLFFNqOcWoex03
+  AssetDataMap:
+    JavaScriptAsset: !<own> 4a83535b-57d2-49b1-a9e2-ea1da025f2f9
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/4a83535b-57d2-49b1-a9e2-ea1da025f2f9>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: d6a74384-f00c-4d2f-ad67-75c189ec0de3
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    animateScale: false
+    endNumber: false
+    invertScale: false
+    onFinishedScale: false
+    onFinishedText: false
+    startNumber: false
+    text3d: false
+    textScale: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - text3d: !<reference.Text3D> 00000000-0000-0000-0000-000000000000
+      textScale: 8
+      startNumber: 5
+      endNumber: 0
+      onFinishedText: ""
+      onFinishedScale: 3
+      animateScale: false
+      invertScale: true
+  ScriptTypes:
+    -
+      {}

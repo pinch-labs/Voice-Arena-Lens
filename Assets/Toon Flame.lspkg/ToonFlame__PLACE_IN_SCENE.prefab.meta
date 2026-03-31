@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/787d92c4-5b8d-69b8-ccc4-4394ac4cdb83>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 7642d78b-4dcf-4765-942d-f1ad7d461bbc
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 7642d78b-4dcf-4765-942d-f1ad7d461bbc
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 90f42ee3-3ba0-4329-b410-09427239b70a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/2fbece86-5e8e-42fd-4ee4-2d0cc7f7e730>
+  PrefabRemaps:
+    []
+  Name: ToonFlame__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 47df1201-2775-4657-50db-1b89697da5d0
+- !<RenderMeshVisual/47df1201-2775-4657-50db-1b89697da5d0>
+  PrefabRemaps:
+    []
+  Name: Mesh Visual 1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 87fe5ebb-6192-4450-90bd-d1928c1cdc16
+  Mesh: !<reference> 44252fd1-a3ca-416f-8332-2877858fa424
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/90f42ee3-3ba0-4329-b410-09427239b70a>
+  Prototype: !<ObjectOwner/52244e12-ab45-4f84-beb4-fbbb5c29cdcb>
+    PackagePath: ""
+    objects:
+      - !<own> 2fbece86-5e8e-42fd-4ee4-2d0cc7f7e730

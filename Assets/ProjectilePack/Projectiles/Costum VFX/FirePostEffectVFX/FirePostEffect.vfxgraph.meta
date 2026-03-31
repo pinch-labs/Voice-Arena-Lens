@@ -1,0 +1,69 @@
+- !<AssetImportMetadata/2eca0dfd-2bfb-4be5-818e-b6dc37e9a011>
+  ImportedAssetIds:
+    VFXGraph: !<reference> e292517c-f372-465a-a543-e3e5377826f2
+  ImporterName: VFXAssetImporter
+  PrimaryAsset: !<reference> e292517c-f372-465a-a543-e3e5377826f2
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    VFXGraph: !<own> 0c3b888a-d797-42f8-ac02-ebbd8c04b562
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<VFXAssetData/0c3b888a-d797-42f8-ac02-ebbd8c04b562>
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  SystemPassProperties:
+    39: !<VFXSystemPassProperties/2650c62d-bdde-4755-bb62-9d604b03449f>
+      FeedbackProperties:
+        {}
+      SimulateProperties:
+        Tweak_N26:
+          typeIdx: 1
+          value: 30.000000
+        Tweak_N43:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 0.000000, w: 1.000000}
+        Tweak_N44:
+          typeIdx: 5
+          value: {x: 1.000000, y: 0.537255, z: 0.129412, w: 1.000000}
+        Tweak_N71:
+          typeIdx: 1
+          value: 0.000000
+        Tweak_N72:
+          typeIdx: 1
+          value: 5.000000
+        Tweak_N23:
+          typeIdx: 1
+          value: 20.000000
+        Tweak_N24:
+          typeIdx: 1
+          value: -50.000000
+        Tweak_N45:
+          typeIdx: 1
+          value: 0.000000
+        Duration:
+          typeIdx: 1
+          value: 5.000000
+      RenderProperties:
+        baseTex:
+          typeIdx: 9
+          value:
+            id: dc3d4971-4fc5-45e1-8df4-2734580f9f6d
+            sampler:
+              filteringMode: Trilinear
+              wrapModeU: Repeat
+              wrapModeV: Repeat
+              wrapModeW: ClampToEdge
+              borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+              mipmaps: false
+            type: Texture2D
+      FeedbackDefines:
+        []
+      SimulateDefines:
+        []
+      RenderDefines:
+        []

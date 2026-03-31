@@ -1,0 +1,52 @@
+- !<AssetImportMetadata/fa5dee72-0dfc-4626-b999-c757c0bb41e1>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 6c81a10a-d52d-440c-a05a-ed65221c4fc3
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 6c81a10a-d52d-440c-a05a-ed65221c4fc3
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 9018178b-0962-4f8f-8c75-c7760f939fd9
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/9018178b-0962-4f8f-8c75-c7760f939fd9>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: b40cbc22-fdef-4200-af73-3ec8547d2d71
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    autoShoot: false
+    cameraObject: false
+    castSound: false
+    fireRate: false
+    roundManager: false
+    spellPrefab: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - spellPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      cameraObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      castSound: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      autoShoot: true
+      fireRate: !<float> 3.000000
+      roundManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

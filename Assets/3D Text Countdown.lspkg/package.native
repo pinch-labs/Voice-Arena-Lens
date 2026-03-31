@@ -1,0 +1,37 @@
+- !<NativePackageDescriptor/40a9180c-789a-4846-8f75-204c23c32588>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 1
+    build: 25102815
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: The Countdown asset applies a countdown which can be showcased on screen by the Text3D component. Review the custom script Countdownwith3DText to see how it works. Learn more in the 3D Text Template guide
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 76
+  ExportUid: 26e125a0-8956-4858-b785-0437568cb3d4
+  ComponentUid: 3ea12c81-f382-4e7e-824a-a988e785155d
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0

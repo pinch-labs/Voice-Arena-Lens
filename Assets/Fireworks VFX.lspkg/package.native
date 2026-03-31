@@ -1,0 +1,37 @@
+- !<NativePackageDescriptor/d57109bb-6198-41b4-8dd5-2c76c4471139>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 1
+    build: 25102815
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: Fireworks VFX This package contains the high quality Fireworks VFX asset. You can customize this particle system using VFX Editor. Click here to learn more about VFX Editor Click here to learn more about Fireworks VFX
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 76
+  ExportUid: b293dc3d-cd8c-424b-ab5a-8bd6b4cdef24
+  ComponentUid: 93192d45-a1ad-4ca5-bce9-82d6fef33651
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0

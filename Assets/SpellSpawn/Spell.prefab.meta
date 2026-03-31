@@ -1,0 +1,128 @@
+- !<AssetImportMetadata/40370a45-181c-4c81-944c-6c7337bd02a2>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 54105996-90f8-4f7e-805d-952767cb2a24
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 54105996-90f8-4f7e-805d-952767cb2a24
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> ebaf5118-d068-4f7e-a727-7cc2e287f406
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<VFXComponent/553f2c01-1592-400f-5207-6ff9d2743454>
+  PrefabRemaps:
+    []
+  Name: VFX
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> 754a9c72-012e-40c1-80e4-4a4ef5118524
+- !<BodyComponent/6fda0819-a8e7-49bb-5e98-b9cfc3eda431>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.000000
+  AngularDamping: 0.000000
+- !<SceneObject/76eab613-724e-4d71-444d-27c2ce9e24d5>
+  PrefabRemaps:
+    []
+  Name: Spell
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 2.393602}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 78fd7299-bb71-4d2e-5c84-aa2c456261d5
+    - !<own> d9724690-f9a4-48f1-56ad-459a66eee8b2
+    - !<own> f0e2f7ed-5260-41fb-7285-21ee0c439b94
+    - !<own> 6fda0819-a8e7-49bb-5e98-b9cfc3eda431
+    - !<own> 553f2c01-1592-400f-5207-6ff9d2743454
+- !<ScriptComponent/78fd7299-bb71-4d2e-5c84-aa2c456261d5>
+  PrefabRemaps:
+    []
+  Name: Move
+  Enabled: true
+  ScriptAsset: !<reference> b6255430-9ed1-49bd-a3be-15cde9b8dea3
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      speed: !<float> 20.000000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/d9724690-f9a4-48f1-56ad-459a66eee8b2>
+  PrefabRemaps:
+    []
+  Name: SpellBehaviour
+  Enabled: true
+  ScriptAsset: !<reference> 09fcf779-c3a2-43ae-9705-35c13f07ec67
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      trailVFX: !<reference.VFXComponent> 553f2c01-1592-400f-5207-6ff9d2743454
+  ScriptTypes:
+    "":
+      {}
+- !<ObjectPrefabAssetData/ebaf5118-d068-4f7e-a727-7cc2e287f406>
+  Prototype: !<ObjectOwner/98ad0375-1ef9-4419-9b32-70a611883a45>
+    PackagePath: ""
+    objects:
+      - !<own> 76eab613-724e-4d71-444d-27c2ce9e24d5
+- !<RenderMeshVisual/f0e2f7ed-5260-41fb-7285-21ee0c439b94>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: false
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 9d601f03-a82a-467e-8782-c59ced3e6725
+  Mesh: !<reference> f757d05f-6854-4d44-a423-bc2038faf63b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

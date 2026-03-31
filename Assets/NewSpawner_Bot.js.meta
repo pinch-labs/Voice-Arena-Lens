@@ -1,0 +1,54 @@
+- !<AssetImportMetadata/42b9e980-5d65-42d4-9fc4-417669aa79a9>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 1cd0aa2a-b05d-4ddc-a88d-50c65e650643
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 1cd0aa2a-b05d-4ddc-a88d-50c65e650643
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 93ce8e90-d3a4-4d65-a91d-1daaef385240
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/93ce8e90-d3a4-4d65-a91d-1daaef385240>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: b40cbc22-fdef-4200-af73-3ec8547d2d71
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    aimDirectionObject: false
+    animManager: false
+    botHealthScript: false
+    castSound: false
+    fireRate: false
+    playerHealthScript: false
+    spellPrefab: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - spellPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      aimDirectionObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      castSound: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      fireRate: !<float> 3.000000
+      playerHealthScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      botHealthScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      animManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

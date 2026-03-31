@@ -1,0 +1,130 @@
+- !<AssetImportMetadata/12f49e64-1391-0943-4010-ceadd10449b6>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> b891d7fe-ba49-4538-957c-070349a58b53
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> b891d7fe-ba49-4538-957c-070349a58b53
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 7iZmQgG7VLFFNqOcWoex03
+  AssetDataMap:
+    ObjectPrefab: !<own> 90d7e344-d50e-454f-a330-b708c0c62fc5
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/03c344a6-4830-4600-5c0b-c068e574c98e>
+  PrefabRemaps:
+    []
+  Name: Text3D Object
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: -1.246405, y: 23.136772, z: -8.278896}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 15b95f14-26ee-4e4b-58ac-562fedbe4c8a
+- !<Text3D/15b95f14-26ee-4e4b-58ac-562fedbe4c8a>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 10
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5d35ad70-3fef-44db-88db-6e6bd574991f
+  Text: |
+    COUNTDOWN
+
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 200
+  ExtrusionDepth: 1.000000
+  ExtrudeDirection: Both
+  Font: !<reference> 419cb330-36eb-4c6b-a548-c6570284adb1
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  EnableBatching: false
+- !<SceneObject/82dfdc1b-893a-4791-7403-ad453f93eb97>
+  PrefabRemaps:
+    []
+  Name: Text3D Countdown
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 21.006485, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e30e03b0-9f2c-45ca-5d58-ba7bfa421bce
+- !<ObjectPrefabAssetData/90d7e344-d50e-454f-a330-b708c0c62fc5>
+  Prototype: !<ObjectOwner/298d9d59-f4b7-4ba7-af41-9d52ea2b0cf8>
+    PackagePath: ""
+    objects:
+      - !<own> 945adfa1-a826-44ed-68c1-447ff4fccf7e
+- !<SceneObject/945adfa1-a826-44ed-68c1-447ff4fccf7e>
+  PrefabRemaps:
+    []
+  Name: 3D Text Countdown
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 82dfdc1b-893a-4791-7403-ad453f93eb97
+    - !<own> 03c344a6-4830-4600-5c0b-c068e574c98e
+  Components:
+    []
+- !<ScriptComponent/e30e03b0-9f2c-45ca-5d58-ba7bfa421bce>
+  PrefabRemaps:
+    []
+  Name: CountdownWith3DText
+  Enabled: true
+  ScriptAsset: !<reference> ac589b9a-3245-4696-a351-3a7ef48e3c3f
+  ScriptInputsDefault:
+    textScale: true
+    startNumber: true
+    endNumber: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      text3d: !<reference.Text3D> 15b95f14-26ee-4e4b-58ac-562fedbe4c8a
+      textScale: 8
+      startNumber: 5
+      endNumber: 0
+      onFinishedText: Finished!
+      onFinishedScale: 2
+      animateScale: true
+      invertScale: false
+  ScriptTypes:
+    "":
+      {}

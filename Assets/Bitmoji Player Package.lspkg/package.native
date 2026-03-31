@@ -1,0 +1,130 @@
+- !<NativePackageDescriptor/669c7d92-625d-416e-a109-4adf5de88d29>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 1
+    build: 25102815
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: The Bitmoji Player Package provides a drag and drop Bitmoji Player Character customizable for different game formats through the attached custom components.
+  SvgIcon: ""
+  SetupScript:
+    code: |
+      /**
+       * Instantiates a BitmojiPlayer prefab in the scene and assigns camera references.
+       *
+       * This function:
+       * - Locates the BitmojiPlayer prefab relative to the asset's path.
+       * - Loads the prefab asset.
+       * - Instantiates the prefab in the scene.
+       * - Finds a camera in the scene and assigns it to both controllers.
+       */
+      return function instantiate(asset, scene, target, instantiator) {
+          try {
+              const prefabFile = asset.fileMeta.sourcePath.parent.appended('Bitmoji Player Package__ADD_TO_SCENE.prefab');
+      
+              const prefab = instantiator.getAssetManager().getFileMeta(prefabFile).primaryAsset;
+              const sceneObject = instantiator.getScene().instantiatePrefab(prefab, null);
+      
+              // Move the Joystick and Jump button under the orthographic camera
+              const controlsObject = sceneObject.children.find(child => child.name === "Controls Render Region");
+              if (controlsObject) {
+                  instantiator.getUtils().addToOrthoCamera(scene, controlsObject);
+              } else {
+                  console.warn("Controls Render Region not found in prefab");
+              }
+      
+              if (scene.mainCamera) {
+                  const bitmojiPlayer = sceneObject.children.find(child => child.name === "Bitmoji Player");
+                  if (bitmojiPlayer) {
+                      assignCameraToCharacterController(bitmojiPlayer, scene.mainCamera);
+                  } else {
+                      console.warn("Bitmoji Player object not found in prefab");
+                  }
+                  const cameraController = sceneObject.children.find(child => child.name === "Camera Controller");
+                  if (cameraController) {
+                      assignCameraToCameraController(cameraController, scene.mainCamera);
+                  } else {
+                      console.warn("Camera Controller object not found in prefab");
+                  }
+      
+                  if (controlsObject) {
+                      assignCameraToJoystickInputAction(controlsObject, scene.mainCamera);
+                  }
+              } else {
+                  console.warn("No main camera found in scene, please add a camera and assign it to the controllers manually");
+              }
+      
+              return sceneObject;
+          } catch (e) {
+              console.log("Couldn't add asset to scene automatically, please add prefab to scene", e, e.stack);
+              return null;
+          }
+      };
+      
+      function assignCameraToCharacterController(bitmojiPlayer, camera) {
+          for (const script of bitmojiPlayer.getComponents("ScriptComponent")) {
+              if (script.name === "Character Controller") {
+                  script.trackingCamera = camera;
+                  console.log("Main Camera assigned to Character Controller");
+                  return;
+              }
+          }
+      
+          console.warn("Character Controller not found in prefab");
+      }
+      
+      function assignCameraToCameraController(cameraController, camera) {
+          for (const script of cameraController.getComponents("ScriptComponent")) {
+              if (script.name === "Camera Controller") {
+                  script._camera = camera.sceneObject;
+                  console.log("Main Camera assigned to Camera Controller");
+                  return;
+              }
+          }
+      
+          console.warn("Camera Controller not found in prefab");
+      }
+      
+      function assignCameraToJoystickInputAction(controlsObject, camera) {
+          const joystick = controlsObject.children.find(child => child.name === "Joystick");
+          if (!joystick) {
+              console.warn("Joystick not found in Controls Render Region");
+              return;
+          }
+          for (const script of joystick.getComponents("ScriptComponent")) {
+              if (script.name === "Input Action") {
+                  script.movementInput.joystickAdapterConfig.projectionCamera = camera;
+                  console.log("Main Camera assigned to Joystick Input Action");
+                  return;
+              }
+          }
+      
+          console.warn("Joystick Input Action not found in prefab");
+      }
+
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 76
+  ExportUid: 2d69e6e7-c83d-4c2c-a225-14027b6ce621
+  ComponentUid: cada237d-5e3b-435f-904a-2efc59f9a86e
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0

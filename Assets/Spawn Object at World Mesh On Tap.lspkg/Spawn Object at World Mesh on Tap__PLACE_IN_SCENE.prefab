@@ -1,0 +1,101 @@
+- !<ObjectPrefab/9875856a-da66-40aa-b71f-7225d0887a09>
+  PackagePath: ""
+  objects:
+    - !<own> b43ca798-572e-4597-8713-5960a361d452
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/33fdbc86-6f3b-492a-b85c-7b5c923518df>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 8e0c2e64-09b0-4b5e-93c4-e7357f86b08a
+    - !<reference> d420cf44-aae6-4309-ad1d-a431e5cf8935
+  Mesh: !<reference> 4abbbe06-1462-453a-a8ce-6de0c22bc187
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/4e65b9ab-3467-4b81-891f-7bf4925d68ed>
+  PrefabRemaps:
+    []
+  Name: Parent to add to
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/b1492c2c-0708-4c9b-9939-74d185169bce>
+  PrefabRemaps:
+    []
+  Name: World Mesh Visualization
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 33fdbc86-6f3b-492a-b85c-7b5c923518df
+- !<SceneObject/b43ca798-572e-4597-8713-5960a361d452>
+  PrefabRemaps:
+    - 33fdbc86-6f3b-492a-b85c-7b5c923518df: 33fdbc86-6f3b-492a-47a3-84a36dcae720
+    - 4e65b9ab-3467-4b81-891f-7bf4925d68ed: 4e65b9ab-3467-4b81-76e0-840b6da29712
+    - b1492c2c-0708-4c9b-9939-74d185169bce: b1492c2c-0708-4c9b-66c6-8b2e7ae96431
+    - b43ca798-572e-4597-8713-5960a361d452: b43ca798-572e-4597-78ec-a69f5c9e2bad
+    - d26b8565-a700-48d7-b288-401b9ea0b1b6: d26b8565-a700-48d7-4d77-bfe4615f4e49
+  Name: Spawn Object at World Mesh on Tap__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4e65b9ab-3467-4b81-891f-7bf4925d68ed
+    - !<own> b1492c2c-0708-4c9b-9939-74d185169bce
+  Components:
+    - !<own> d26b8565-a700-48d7-b288-401b9ea0b1b6
+- !<ScriptComponent/d26b8565-a700-48d7-b288-401b9ea0b1b6>
+  PrefabRemaps:
+    []
+  Name: Spawn Object at World Mesh On Tap
+  Enabled: true
+  ScriptAsset: !<reference> 0770a7a6-3ade-44b0-ab08-2210f94fb21f
+  ScriptInputsDefault:
+    behaviorCallback: true
+    roundManager: true
+    reticlePrefab: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      deviceTracking: !<reference.DeviceTracking> 194afe46-b435-4f6b-8194-04222e721231
+      prefab: !<reference.ObjectPrefab> c5cceae4-4a99-40dc-9205-c95a87f0fe09
+      parent: !<reference.SceneObject> 4e65b9ab-3467-4b81-891f-7bf4925d68ed
+      behaviorCallback: !<reference.ScriptComponent[]>
+        []
+      roundManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      reticlePrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}

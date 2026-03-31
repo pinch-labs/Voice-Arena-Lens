@@ -1,0 +1,46 @@
+- !<NativePackageDescriptor/3fd11d7d-6634-40f3-ba21-2dd42cf1a7c5>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 1
+    build: 25102815
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: |-
+    This upgraded GPU Particles asset introduces a powerful set of new features designed to expand creative control and visual fidelity. You can explore and play with the next new settings:
+    	-8 new emitter types
+    	-3D texture-based forces 
+    	-Soft occlusion
+    	-Matcap shading
+    	-Displace & orbit transforms
+    	-Screen space masking
+    
+    Select `Scene` asset in the Asset Manager, click on the `Live Target` input in the Inspector and select `Examples` Render Target
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 76
+  ExportUid: de8fd62f-926a-44c6-8cda-85a54a99d75d
+  ComponentUid: ee8be2d8-895e-4b03-8dab-b67f7440db47
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0

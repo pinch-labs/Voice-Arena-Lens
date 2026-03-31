@@ -1,0 +1,877 @@
+- !<ObjectPrefab/ef0c8251-f78b-4b76-bac9-d60296bb1ea4>
+  PackagePath: ""
+  objects:
+    - !<own> c29568e6-6c61-4f3c-ac59-66c07a261238
+  LazyLoading: false
+  RetainAssets: true
+- !<ScriptComponent/0138d3e8-3636-48d4-9d90-16c9e0552de5>
+  PrefabRemaps:
+    []
+  Name: Bitmoji Joint Attachment
+  Enabled: true
+  ScriptAsset: !<reference> 495c98f8-8e03-435d-8f48-49a0ae9d4a85
+  ScriptInputsDefault:
+    prefab: true
+    positionOffset: true
+    objectScale: true
+    rotationOffset: true
+    hasAnimation: true
+    animationPlayer: true
+    playAnimationOnLoad: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      bitmoji: !<reference.ScriptComponent> ee411a7c-2dcb-4aff-80d9-323c7205aec2
+      jointName: RightHand
+      objectToAttach: sceneObject
+      object: !<reference.SceneObject> bd7edc8f-3e7f-4823-9d31-c9e0191233cd
+      prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      positionOffset: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      objectScale: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      rotationOffset: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      hasAnimation: false
+      animationPlayer: !<reference.AnimationPlayer> 00000000-0000-0000-0000-000000000000
+      playAnimationOnLoad: false
+  ScriptTypes:
+    "":
+      {}
+- !<Text3D/14da237d-8e25-4b8d-8ae2-47a521f71e2c>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5a15c7ee-879b-4b20-9d96-5831dc8af562
+  Text: 'Say "place" to  anchor me'
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 30
+  ExtrusionDepth: 0.820000
+  ExtrudeDirection: Both
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  EnableBatching: false
+- !<AudioComponent/1d258215-f13c-4e8e-ad5f-882ec344bbb2>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 23b21317-d136-4188-8f7a-cdfb08f4a257
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: true
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<RenderMeshVisual/2c8e129a-8e78-47ab-b374-fa3e3887ab4b>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: false
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 7c80d2ce-6e78-4975-8a3d-6a43c7261346
+  Mesh: !<reference> 7e72a871-119a-4167-b672-b6fb26bc9858
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/3777e040-e90c-48f3-9e17-bd1df98b4213>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: false
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 0afb2e60-410e-4705-94ab-d2227898335b
+  Mesh: !<reference> 7e72a871-119a-4167-b672-b6fb26bc9858
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/44029943-9e42-4cdb-8eed-35230ed8c9f0>
+  PrefabRemaps:
+    []
+  Name: NewSpawner_Bot
+  Enabled: true
+  ScriptAsset: !<reference> 1cd0aa2a-b05d-4ddc-a88d-50c65e650643
+  ScriptInputsDefault:
+    fireRate: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      spellPrefab: !<reference.ObjectPrefab> d0017c9b-56e3-4210-a392-4abb4b3b05e8
+      aimDirectionObject: !<reference.SceneObject> 987eec0a-d8cd-4a30-9091-fa56d1ef725d
+      castSound: !<reference.AudioComponent> e3af6437-34ca-41de-aab5-00bc1a2ae8a6
+      fireRate: !<float> 3.000000
+      playerHealthScript: !<reference.ScriptComponent> aa0879c3-c4c0-447b-8221-c84c5b9cd569
+      botHealthScript: !<reference.ScriptComponent> d17c5861-6dbc-47b9-b102-3923e91b6c76
+      animManager: !<reference.ScriptComponent> 71382e03-4e7a-452e-b529-eb4d91d9fa7e
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/46547c62-1b14-46ac-8244-a4b5a5ebad2f>
+  PrefabRemaps:
+    []
+  Name: Animation State Manager
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 71382e03-4e7a-452e-b529-eb4d91d9fa7e
+- !<SceneObject/50c50f7b-cb48-4b66-87f6-0bc04f84b365>
+  PrefabRemaps:
+    []
+  Name: Spawner
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 65.153839, z: 61.722721}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e3af6437-34ca-41de-aab5-00bc1a2ae8a6
+    - !<own> 44029943-9e42-4cdb-8eed-35230ed8c9f0
+- !<SceneObject/547e234d-b099-44cb-8398-8e01191fdc59>
+  PrefabRemaps:
+    []
+  Name: Wand
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.750000, y: -0.300000, z: 1.000000}
+    Rotation: {x: 104.676003, y: -0.000000, z: -81.956329}
+    Scale: {x: 0.100000, y: 0.153697, z: 0.104992}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 50c50f7b-cb48-4b66-87f6-0bc04f84b365
+  Components:
+    - !<own> 8d43e01a-3158-4a07-8adf-14054ed80a5b
+- !<LookAtComponent/6db4107a-1cb7-4742-9abe-edf0b7c8a3f5>
+  PrefabRemaps:
+    []
+  Name: Look At
+  Enabled: false
+  LookAtMode: LookAtPoint
+  AimVectors: ZAimYUp
+  WorldUpVector: SceneY
+  Target: !<reference> 00000000-0000-0065-0000-000000000064
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+- !<ScriptComponent/6f51d008-e47a-4319-a99a-77d197fc36f9>
+  PrefabRemaps:
+    []
+  Name: BotBehaviour
+  Enabled: false
+  ScriptAsset: !<reference> 0755c771-94f3-445d-a238-ebb81f1dba52
+  ScriptInputsDefault:
+    speed: true
+    startEnabled: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      amplitude: !<float> 35.000000
+      speed: !<float> 2.000000
+      startEnabled: true
+      playerHealthScript: !<reference.ScriptComponent> aa0879c3-c4c0-447b-8221-c84c5b9cd569
+      animManager: !<reference.ScriptComponent> 71382e03-4e7a-452e-b529-eb4d91d9fa7e
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/71382e03-4e7a-452e-b529-eb4d91d9fa7e>
+  PrefabRemaps:
+    []
+  Name: Animation State Manager
+  Enabled: true
+  ScriptAsset: !<reference> a36e70df-3e7b-4dee-9510-ee7bcb2ff77c
+  ScriptInputsDefault:
+    tempClip: true
+    advanced: true
+    tempInput: true
+    editAnimationStates: true
+    editParameters: true
+    showDebug: true
+    debugText: true
+    displayParameters: true
+    displayStates: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      tempClip:
+        clipName: ""
+        threshold: !<float> 0.000000
+      advanced: false
+      tempInput:
+        paramName: ""
+        type: Trigger
+        funcInt: Equal
+        funcFloat: IsLess
+        funcBool: IsLess
+        valueInt: 0
+        valueFloat: !<float> 0.000000
+      animationPlayer: !<reference.AnimationPlayer> d66768b1-1f1c-4640-9a31-2337d03275bf
+      editAnimationStates: true
+      createStatesFromClips: true
+      states:
+        - stateName: Hit
+          source: 0
+          clipName: HitClip
+          blendTreeClips:
+            []
+          normalizeClipDuration: false
+          blendParameterName: ""
+        - stateName: Idle
+          source: 0
+          clipName: IdleClip
+          blendTreeClips:
+            []
+          normalizeClipDuration: false
+          blendParameterName: ""
+        - stateName: Death
+          source: 0
+          clipName: DeathClip
+          blendTreeClips:
+            []
+          normalizeClipDuration: false
+          blendParameterName: ""
+        - stateName: Cast
+          source: 0
+          clipName: CastClip
+          blendTreeClips:
+            []
+          normalizeClipDuration: false
+          blendParameterName: ""
+        - stateName: LeftClip
+          source: 0
+          clipName: Left
+          blendTreeClips:
+            []
+          normalizeClipDuration: false
+          blendParameterName: ""
+        - stateName: RightClip
+          source: 0
+          clipName: Right
+          blendTreeClips:
+            []
+          normalizeClipDuration: false
+          blendParameterName: ""
+      editParameters: false
+      parameters:
+        - paramName: Hit
+          type: Bool
+          valueInt: 0
+          valueFloat: !<float> 0.000000
+          valueBool: false
+          valueTrigger: false
+        - paramName: Idle
+          type: Bool
+          valueInt: 0
+          valueFloat: !<float> 0.000000
+          valueBool: false
+          valueTrigger: false
+        - paramName: Death
+          type: Bool
+          valueInt: 0
+          valueFloat: !<float> 0.000000
+          valueBool: false
+          valueTrigger: false
+      editTransitions: true
+      transitions:
+        - enabled: false
+          fromStateType: 0
+          fromStateName: Idle
+          toStateType: 0
+          toStateName: Hit
+          duration: !<float> 1.000000
+          hasExitTime: false
+          exitTime: !<float> 1.000000
+          conditions:
+            []
+        - enabled: true
+          fromStateType: 1
+          fromStateName: ""
+          toStateType: 0
+          toStateName: Idle
+          duration: !<float> 3.000000
+          hasExitTime: false
+          exitTime: !<float> 1.000000
+          conditions:
+            []
+        - enabled: false
+          fromStateType: 0
+          fromStateName: Hit
+          toStateType: 0
+          toStateName: Death
+          duration: !<float> 500.000000
+          hasExitTime: false
+          exitTime: !<float> 1.000000
+          conditions:
+            []
+        - enabled: false
+          fromStateType: 0
+          fromStateName: Hit
+          toStateType: 0
+          toStateName: Idle
+          duration: !<float> 3.000000
+          hasExitTime: false
+          exitTime: !<float> 1.000000
+          conditions:
+            []
+        - enabled: false
+          fromStateType: 0
+          fromStateName: Cast
+          toStateType: 0
+          toStateName: Idle
+          duration: !<float> 2.000000
+          hasExitTime: false
+          exitTime: !<float> 1.000000
+          conditions:
+            []
+        - enabled: false
+          fromStateType: 0
+          fromStateName: Left
+          toStateType: 0
+          toStateName: Idle
+          duration: !<float> 2.000000
+          hasExitTime: false
+          exitTime: !<float> 1.000000
+          conditions:
+            []
+        - enabled: false
+          fromStateType: 0
+          fromStateName: Right
+          toStateType: 0
+          toStateName: Idle
+          duration: !<float> 2.000000
+          hasExitTime: false
+          exitTime: !<float> 1.000000
+          conditions:
+            []
+        - enabled: false
+          fromStateType: 0
+          fromStateName: Idle
+          toStateType: 0
+          toStateName: Right
+          duration: !<float> 2.000000
+          hasExitTime: false
+          exitTime: !<float> 1.000000
+          conditions:
+            []
+        - enabled: false
+          fromStateType: 0
+          fromStateName: Idle
+          toStateType: 0
+          toStateName: Left
+          duration: !<float> 1.000000
+          hasExitTime: false
+          exitTime: !<float> 1.000000
+          conditions:
+            []
+        - enabled: false
+          fromStateType: 0
+          fromStateName: Left
+          toStateType: 0
+          toStateName: Idle
+          duration: !<float> 1.000000
+          hasExitTime: false
+          exitTime: !<float> 1.000000
+          conditions:
+            []
+        - enabled: false
+          fromStateType: 0
+          fromStateName: Right
+          toStateType: 0
+          toStateName: Idle
+          duration: !<float> 1.000000
+          hasExitTime: false
+          exitTime: !<float> 1.000000
+          conditions:
+            []
+        - enabled: false
+          fromStateType: 0
+          fromStateName: Left
+          toStateType: 0
+          toStateName: Cast
+          duration: !<float> 1.000000
+          hasExitTime: false
+          exitTime: !<float> 1.000000
+          conditions:
+            []
+        - enabled: false
+          fromStateType: 0
+          fromStateName: Right
+          toStateType: 0
+          toStateName: Cast
+          duration: !<float> 1.000000
+          hasExitTime: false
+          exitTime: !<float> 1.000000
+          conditions:
+            []
+        - enabled: false
+          fromStateType: 0
+          fromStateName: Left
+          toStateType: 0
+          toStateName: Hit
+          duration: !<float> 1.000000
+          hasExitTime: false
+          exitTime: !<float> 1.000000
+          conditions:
+            []
+        - enabled: true
+          fromStateType: 0
+          fromStateName: Right
+          toStateType: 0
+          toStateName: Hit
+          duration: !<float> 1.000000
+          hasExitTime: false
+          exitTime: !<float> 1.000000
+          conditions:
+            []
+      showDebug: false
+      debugText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      displayParameters: false
+      displayStates: false
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/8080a02e-e61d-476d-ace5-d4f43029aa89>
+  PrefabRemaps:
+    []
+  Name: BotCollider
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.100000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8feccebf-9418-45eb-9d69-df63ec5bb6ad
+    - !<own> d17c5861-6dbc-47b9-b102-3923e91b6c76
+    - !<own> 1d258215-f13c-4e8e-ad5f-882ec344bbb2
+- !<SceneObject/813da780-833d-461b-be25-630b2daf61fb>
+  PrefabRemaps:
+    []
+  Name: Bitmoji 3D
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: -65.620758, y: 0.000000, z: -0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 0.500000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> b65ce95f-a494-48ab-9384-d578fa3b6944
+    - !<own> 8080a02e-e61d-476d-ace5-d4f43029aa89
+    - !<own> 987eec0a-d8cd-4a30-9091-fa56d1ef725d
+  Components:
+    - !<own> ee411a7c-2dcb-4aff-80d9-323c7205aec2
+    - !<own> d66768b1-1f1c-4640-9a31-2337d03275bf
+    - !<own> ffb4f2e7-b2fb-4964-b31a-c6cc1556e36e
+    - !<own> 6db4107a-1cb7-4742-9abe-edf0b7c8a3f5
+    - !<own> 6f51d008-e47a-4319-a99a-77d197fc36f9
+- !<RenderMeshVisual/8d43e01a-3158-4a07-8adf-14054ed80a5b>
+  PrefabRemaps:
+    []
+  Name: defaultMaterial
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c63cc77d-42cf-44a4-812b-86ab1bcfea47
+  Mesh: !<reference> e55de477-31be-4790-ba5a-cfcaefac64e0
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ColliderComponent/8feccebf-9418-45eb-9d69-df63ec5bb6ad>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Capsule>
+    Axis: Y
+    Length: 0.750000
+    Radius: 0.200000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<SceneObject/987eec0a-d8cd-4a30-9091-fa56d1ef725d>
+  PrefabRemaps:
+    []
+  Name: AimDirection
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -11.345299, y: 101.603638, z: 51.105137}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 10.000000, y: 10.000000, z: 10.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2c8e129a-8e78-47ab-b374-fa3e3887ab4b
+- !<ScriptComponent/a7f3893a-e85d-41c6-a523-453e77f88f33>
+  PrefabRemaps:
+    []
+  Name: Bitmoji Joint Attachment
+  Enabled: true
+  ScriptAsset: !<reference> 495c98f8-8e03-435d-8f48-49a0ae9d4a85
+  ScriptInputsDefault:
+    prefab: true
+    positionOffset: true
+    objectScale: true
+    rotationOffset: true
+    hasAnimation: true
+    animationPlayer: true
+    playAnimationOnLoad: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      bitmoji: !<reference.ScriptComponent> ee411a7c-2dcb-4aff-80d9-323c7205aec2
+      jointName: Hips
+      objectToAttach: sceneObject
+      object: !<reference.SceneObject> 8080a02e-e61d-476d-ace5-d4f43029aa89
+      prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      positionOffset: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      objectScale: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      rotationOffset: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      hasAnimation: false
+      animationPlayer: !<reference.AnimationPlayer> 00000000-0000-0000-0000-000000000000
+      playAnimationOnLoad: false
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/b48687fb-727a-4dc4-ae71-d9996f2bd013>
+  PrefabRemaps:
+    []
+  Name: Bitmoji Joint Attachment
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0138d3e8-3636-48d4-9d90-16c9e0552de5
+    - !<own> a7f3893a-e85d-41c6-a523-453e77f88f33
+- !<SceneObject/b65ce95f-a494-48ab-9384-d578fa3b6944>
+  PrefabRemaps:
+    []
+  Name: BotHealth
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -11.688477, y: 21.952248, z: 55.507759}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 15.000000, y: 15.000000, z: 15.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 14da237d-8e25-4b8d-8ae2-47a521f71e2c
+- !<SceneObject/bd7edc8f-3e7f-4823-9d31-c9e0191233cd>
+  PrefabRemaps:
+    []
+  Name: WandParent_Bot
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.100000, y: 0.100000, z: 0.100000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 547e234d-b099-44cb-8398-8e01191fdc59
+  Components:
+    - !<own> 3777e040-e90c-48f3-9e17-bd1df98b4213
+- !<SceneObject/c29568e6-6c61-4f3c-ac59-66c07a261238>
+  PrefabRemaps:
+    - 0138d3e8-3636-48d4-9d90-16c9e0552de5: 0138d3e8-3636-48d4-626f-e9361faad21a
+    - 14da237d-8e25-4b8d-8ae2-47a521f71e2c: 14da237d-8e25-4b8d-751d-b85ade08e1d3
+    - 1d258215-f13c-4e8e-ad5f-882ec344bbb2: 1d258215-f13c-4e8e-52a0-77d13cbb444d
+    - 2c8e129a-8e78-47ab-b374-fa3e3887ab4b: 2c8e129a-8e78-47ab-4c8b-05c1c77854b4
+    - 3777e040-e90c-48f3-9e17-bd1df98b4213: 3777e040-e90c-48f3-61e8-42e20674bdec
+    - 44029943-9e42-4cdb-8eed-35230ed8c9f0: 44029943-9e42-4cdb-7112-cadcf127360f
+    - 46547c62-1b14-46ac-8244-a4b5a5ebad2f: 46547c62-1b14-46ac-7dbb-5b4a5a1452d0
+    - 50c50f7b-cb48-4b66-87f6-0bc04f84b365: 50c50f7b-cb48-4b66-7809-f43fb07b4c9a
+    - 547e234d-b099-44cb-8398-8e01191fdc59: 547e234d-b099-44cb-7c67-71fee6e023a6
+    - 6db4107a-1cb7-4742-9abe-edf0b7c8a3f5: 6db4107a-1cb7-4742-6541-120f48375c0a
+    - 6f51d008-e47a-4319-a99a-77d197fc36f9: 6f51d008-e47a-4319-5665-882e6803c906
+    - 71382e03-4e7a-452e-b529-eb4d91d9fa7e: 71382e03-4e7a-452e-4ad6-14b26e260581
+    - 8080a02e-e61d-476d-ace5-d4f43029aa89: 8080a02e-e61d-476d-531a-2b0bcfd65576
+    - 813da780-833d-461b-be25-630b2daf61fb: 813da780-833d-461b-41da-9cf4d2509e04
+    - 8d43e01a-3158-4a07-8adf-14054ed80a5b: 8d43e01a-3158-4a07-7520-ebfab127f5a4
+    - 8feccebf-9418-45eb-9d69-df63ec5bb6ad: 8feccebf-9418-45eb-6296-209c13a44952
+    - 987eec0a-d8cd-4a30-9091-fa56d1ef725d: 987eec0a-d8cd-4a30-6f6e-05a92e108da2
+    - a7f3893a-e85d-41c6-a523-453e77f88f33: a7f3893a-e85d-41c6-5adc-bac1880770cc
+    - b48687fb-727a-4dc4-ae71-d9996f2bd013: b48687fb-727a-4dc4-518e-266690d42fec
+    - b65ce95f-a494-48ab-9384-d578fa3b6944: b65ce95f-a494-48ab-6c7b-2a8705c496bb
+    - bd7edc8f-3e7f-4823-9d31-c9e0191233cd: bd7edc8f-3e7f-4823-62ce-361fe6edcc32
+    - c29568e6-6c61-4f3c-ac59-66c07a261238: c29568e6-6c61-4f3c-53a6-993f85d9edc7
+    - d17c5861-6dbc-47b9-b102-3923e91b6c76: d17c5861-6dbc-47b9-4efd-c6dc16e49389
+    - d66768b1-1f1c-4640-9a31-2337d03275bf: d66768b1-1f1c-4640-65ce-dcc82fcd8a40
+    - e3af6437-34ca-41de-aab5-00bc1a2ae8a6: e3af6437-34ca-41de-554a-ff43e5d51759
+    - ee411a7c-2dcb-4aff-80d9-323c7205aec2: ee411a7c-2dcb-4aff-7f26-cdc38dfa513d
+    - ffb4f2e7-b2fb-4964-b31a-c6cc1556e36e: ffb4f2e7-b2fb-4964-4ce5-3933eaa91c91
+  Name: BitmojiReticle
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 813da780-833d-461b-be25-630b2daf61fb
+    - !<own> b48687fb-727a-4dc4-ae71-d9996f2bd013
+    - !<own> bd7edc8f-3e7f-4823-9d31-c9e0191233cd
+    - !<own> 46547c62-1b14-46ac-8244-a4b5a5ebad2f
+  Components:
+    []
+- !<ScriptComponent/d17c5861-6dbc-47b9-b102-3923e91b6c76>
+  PrefabRemaps:
+    []
+  Name: Bot_Health
+  Enabled: true
+  ScriptAsset: !<reference> d4907d96-79d8-4322-9a3c-af1d37fe87af
+  ScriptInputsDefault:
+    victoryConfetti: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      healthText: !<reference.Text3D> 14da237d-8e25-4b8d-8ae2-47a521f71e2c
+      animManager: !<reference.ScriptComponent> 71382e03-4e7a-452e-b529-eb4d91d9fa7e
+      hitSFX: !<reference.AudioComponent> 1d258215-f13c-4e8e-ad5f-882ec344bbb2
+      victoryConfetti: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<AnimationPlayer/d66768b1-1f1c-4640-9a31-2337d03275bf>
+  PrefabRemaps:
+    []
+  Name: Animation Player
+  Enabled: true
+  Autoplay: false
+  ClipRangeType: Frames
+  AnimationClips:
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 3338a367-0852-4b04-8c87-4bcc7bc577a5
+      Name: IdleClip
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 56.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 20d72ea7-0c95-4d11-b08f-b30fbea332ab
+      Name: HitClip
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 36.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 542b9f2b-00cd-4494-8a70-9005c3eb2d32
+      Name: DeathClip
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 108.999992
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 8c16219f-7515-41d2-b365-3d13a02fc965
+      Name: CastClip
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 69.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 49363bfd-835f-4cfe-8361-c04da23fb4de
+      Name: LeftClip
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 35.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 30c589ff-1a57-4665-9f83-7ab78477417d
+      Name: RightClip
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 36.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+- !<AudioComponent/e3af6437-34ca-41de-aab5-00bc1a2ae8a6>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> fe8ed29c-d501-4d3d-be31-afb6328acc70
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: true
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<ScriptComponent/ee411a7c-2dcb-4aff-80d9-323c7205aec2>
+  PrefabRemaps:
+    []
+  Name: Bitmoji 3D
+  Enabled: true
+  ScriptAsset: !<reference> 7a3c78c1-4ff4-41a1-9f38-a2b9e6360f03
+  ScriptInputsDefault:
+    bitmojiType: true
+    friendsComponent: true
+    friendIndex: true
+    mixamoAnimation: true
+    autoDownload: true
+    renderOrder: true
+    castShadow: true
+    autoMention: true
+    materialHolder: true
+    printDebug: true
+    loaderPrefab: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      bitmojiType: !<float> 0.000000
+      friendsComponent: !<reference.Component> 00000000-0000-0000-0000-000000000000
+      friendIndex: 0
+      mixamoAnimation: true
+      autoDownload: true
+      renderOrder: 0
+      castShadow: true
+      autoMention: true
+      materialHolder: !<reference.Material> 40b3147b-e211-4919-9ba0-bedd05c60132
+      printDebug: false
+      loaderPrefab: !<reference.ObjectPrefab> 3642f110-de5e-4fcd-9cf9-bdd9164d8108
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/ffb4f2e7-b2fb-4964-b31a-c6cc1556e36e>
+  PrefabRemaps:
+    []
+  Name: TurnTowardsCameraInsideDistance
+  Enabled: true
+  ScriptAsset: !<reference> fb4ffc31-6f3e-4b07-b0c5-ae24162541be
+  ScriptInputsDefault:
+    lerpValue: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      cameraObject: !<reference.SceneObject> 00000000-0000-0065-0000-000000000064
+      triggerDistance: !<float> 1000.000000
+      lerpValue: 0.050000
+  ScriptTypes:
+    "":
+      {}

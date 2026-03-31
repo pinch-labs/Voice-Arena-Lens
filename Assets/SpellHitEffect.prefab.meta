@@ -1,0 +1,69 @@
+- !<AssetImportMetadata/55520583-f857-461b-bfa0-1bc89d6ef9a5>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 837c3c0c-1556-4f5c-a86c-cf1a964ac3cd
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 837c3c0c-1556-4f5c-a86c-cf1a964ac3cd
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 20b5d2ee-cf66-4cbf-a484-915de30fc81e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/20b5d2ee-cf66-4cbf-a484-915de30fc81e>
+  Prototype: !<ObjectOwner/6caac35f-036b-4934-b025-d3cc1e62ba1d>
+    PackagePath: ""
+    objects:
+      - !<own> e37198c4-33d4-4c43-4566-ce635d906cc2
+- !<SceneObject/7f3e6a3e-9d0b-44a9-5ae3-86237f746936>
+  PrefabRemaps:
+    []
+  Name: Script Spawn Fireworks
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f03d9b59-0a2b-4c37-493d-cbbda1ee7830
+- !<SceneObject/e37198c4-33d4-4c43-4566-ce635d906cc2>
+  PrefabRemaps:
+    []
+  Name: SpellHitEffect
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7f3e6a3e-9d0b-44a9-5ae3-86237f746936
+  Components:
+    []
+- !<ScriptComponent/f03d9b59-0a2b-4c37-493d-cbbda1ee7830>
+  PrefabRemaps:
+    []
+  Name: Script Spawn VFX_OnStartEvent
+  Enabled: true
+  ScriptAsset: !<reference> 146283c0-ae68-4301-8074-eb2cd47b0196
+  ScriptInputsDefault:
+    MaxSystems: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      vfxAsset: !<reference.VFXAsset> 105c4c19-21d3-4823-b577-bac61dd363e3
+      cam: !<reference.Camera> 00000000-0000-0065-0000-000000000065
+      MaxSystems: 3
+  ScriptTypes:
+    "":
+      {}

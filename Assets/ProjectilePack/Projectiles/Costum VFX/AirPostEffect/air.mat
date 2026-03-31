@@ -1,0 +1,105 @@
+- !<Material/f3314d9f-1809-4b7f-acc4-79e7634dca67>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 91a5a994-2767-423d-a364-6089f92d464f
+- !<PassInfo/91a5a994-2767-423d-a364-6089f92d464f>
+  CachedProperties:
+    - mainColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  DepthWrite: false
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ALPHADISSOLVE
+    - BASETEXTURE
+    - BLACKASALPHA
+    - FLIPBOOKBLEND
+    - FLIPBOOKBYLIFE
+    - MAXPARTICLECOUNT
+    - NONE
+  BlendMode: Normal
+  Properties:
+    alphaDissolveMult:
+      typeIdx: 1
+      value: 1.000000
+    alphaEnd:
+      typeIdx: 1
+      value: 0.000000
+    alphaStart:
+      typeIdx: 1
+      value: 0.000000
+    colorEnd:
+      typeIdx: 4
+      value: {x: 1.000000, y: 0.866667, z: 0.113725}
+    colorStart:
+      typeIdx: 4
+      value: {x: 0.960784, y: 0.898039, z: 0.000000}
+    externalSeed:
+      typeIdx: 1
+      value: 0.580000
+    gravity:
+      typeIdx: 1
+      value: 0.000000
+    lifeTimeConstant:
+      typeIdx: 1
+      value: 0.300000
+    mainTexture:
+      typeIdx: 9
+      value:
+        id: 6827c87e-210f-41c8-b9b9-cfee238bc8c7
+        sampler:
+          filteringMode: Bilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    rotationDrag:
+      typeIdx: 1
+      value: 0.000000
+    rotationRandom:
+      typeIdx: 3
+      value: {x: -1.000000, y: 1.000000}
+    rotationRate:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    shadowSize:
+      typeIdx: 1
+      value: 1.017000
+    sizeEnd:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    sizeSpeed:
+      typeIdx: 1
+      value: 1.000000
+    sizeStart:
+      typeIdx: 3
+      value: {x: 3.000000, y: 3.000000}
+    spawnDuration:
+      typeIdx: 1
+      value: 0.000000
+    spawnMaxParticles:
+      typeIdx: 1
+      value: 150.000000
+    timeGlobal:
+      typeIdx: 1
+      value: 1.000000
+    velocityDrag:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    velocityMax:
+      typeIdx: 4
+      value: {x: 10.000000, y: 10.000000, z: 60.000000}
+    velocityMin:
+      typeIdx: 4
+      value: {x: -10.000000, y: -10.000000, z: 40.000000}
+  Pass: !<reference> 185314a7-1727-4748-a83b-1a274d4b9203

@@ -1,0 +1,51 @@
+- !<AssetImportMetadata/1ec15769-fbd0-4fc9-b422-f1891b1c95bf>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 3bccdea0-9d32-4631-8db3-44ba29d05f56
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 3bccdea0-9d32-4631-8db3-44ba29d05f56
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> d5bb0025-6619-41cd-8d21-f7910bdf7cff
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/d5bb0025-6619-41cd-8d21-f7910bdf7cff>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: af858b74-ae82-4f81-987e-1b7682e9e248
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    animationLayerName: false
+    animationMixer: false
+    animationStartOffset: false
+    animationWeight: false
+    numberOfLoops: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - animationMixer: !<reference.AnimationMixer> 00000000-0000-0000-0000-000000000000
+      animationLayerName: !<string[]>
+        []
+      animationWeight: !<float> 1.000000
+      animationStartOffset: !<float> 0.000000
+      numberOfLoops: -1
+  ScriptTypes:
+    -
+      {}
